@@ -1,0 +1,228 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGO6JH4KHPTves=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGO6JH4KHPUGrY=",
+					"_parent": {
+						"$ref": "AAAAAAGO6JH4KHPTves="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGO6JNgUnPapi4=",
+							"_parent": {
+								"$ref": "AAAAAAGO6JH4KHPUGrY="
+							},
+							"model": {
+								"$ref": "AAAAAAGO6JNgUnPYqVY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGO6JNgU3Pgo9Y=",
+									"_parent": {
+										"$ref": "AAAAAAGO6JNgUnPapi4="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 125,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGO6JNgU3PbpxE=",
+									"_parent": {
+										"$ref": "AAAAAAGO6JNgUnPapi4="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 130,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "User",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGO6JNgU3Pcx9o=",
+									"_parent": {
+										"$ref": "AAAAAAGO6JNgUnPapi4="
+									},
+									"font": "Arial;13;0",
+									"left": 16,
+									"top": 56,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 120,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGO6JNgU3PbpxE="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGO6JkQbXPu5Wc=",
+							"_parent": {
+								"$ref": "AAAAAAGO6JH4KHPUGrY="
+							},
+							"model": {
+								"$ref": "AAAAAAGO6JkQbXPsBDQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGO6JkQbnP07eo=",
+									"_parent": {
+										"$ref": "AAAAAAGO6JkQbXPu5Wc="
+									},
+									"font": "Arial;13;0",
+									"left": 466,
+									"top": 133,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGO6JkQbnPvIOM=",
+									"_parent": {
+										"$ref": "AAAAAAGO6JkQbXPu5Wc="
+									},
+									"font": "Arial;13;0",
+									"left": 466,
+									"top": 138,
+									"width": 87.4326171875,
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGO6JkQbnPwj8A=",
+									"_parent": {
+										"$ref": "AAAAAAGO6JkQbXPu5Wc="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 456,
+							"top": 128,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGO6JkQbnPvIOM="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGO6J4xQnP6EOc=",
+							"_parent": {
+								"$ref": "AAAAAAGO6JH4KHPUGrY="
+							},
+							"model": {
+								"$ref": "AAAAAAGO6J4xQXP4588="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGO6J4xQnP7gTA=",
+									"_parent": {
+										"$ref": "AAAAAAGO6J4xQnP6EOc="
+									},
+									"font": "Arial;13;0",
+									"left": 354,
+									"top": 313,
+									"width": 75.8798828125,
+									"height": 39,
+									"text": "Notebook Management system",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGO6J4xQnP8gDE=",
+									"_parent": {
+										"$ref": "AAAAAAGO6J4xQnP6EOc="
+									},
+									"font": "Arial;13;0",
+									"left": 354,
+									"top": 285,
+									"width": 75.8798828125,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 344,
+							"top": 280,
+							"width": 95.8798828125,
+							"height": 82,
+							"nameLabel": {
+								"$ref": "AAAAAAGO6J4xQnP7gTA="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGO6J4xQnP8gDE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGO6JNgUnPYqVY=",
+					"_parent": {
+						"$ref": "AAAAAAGO6JH4KHPTves="
+					},
+					"name": "User"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGO6JkQbXPsBDQ=",
+					"_parent": {
+						"$ref": "AAAAAAGO6JH4KHPTves="
+					}
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGO6J4xQXP4588=",
+					"_parent": {
+						"$ref": "AAAAAAGO6JH4KHPTves="
+					},
+					"name": "Notebook Management system"
+				}
+			]
+		}
+	]
+}
